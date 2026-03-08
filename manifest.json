@@ -1,0 +1,18 @@
+
+{
+  "manifest_version": 3,
+  "name": "Tab Trails",
+  "version": "1.0",
+  "description": "Track your research sessions",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [{
+    "resources": ["map.html", "map.js", "map.css", "pixel.ttf"],
+    "matches": ["<all_urls>"]
+  }]
+}

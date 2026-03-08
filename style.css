@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('pixel.ttf');
+}
+
+body {
+  width: 320px;
+  padding: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background: #1a1a2e;
+  color: #ffffff;
+  margin: 0;
+}
+
+h1 {
+  font-size: 12px;
+  color: #ffe000;
+  text-shadow: 1px 1px #b8a000;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ffe000;
+  margin-bottom: 10px;
+  background: #16213e;
+  color: #ffffff;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 7px;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 0px;
+}
+
+input::placeholder {
+  color: #555577;
+}
+
+input:focus {
+  border-color: #ff6fff;
+  box-shadow: 0 0 8px #ff6fff88;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #ffe000;
+  color: #1a1a2e;
+  border: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background: #ff6fff;
+  color: #1a1a2e;
+}
+
+button:active {
+  transform: translate(2px, 2px);
+}
+
+.active-session {
+  margin-top: 14px;
+  font-size: 7px;
+  color: #ff6fff;
+  border-top: 2px solid #ffe00044;
+  padding-top: 10px;
+  letter-spacing: 1px;
+}
+.tab-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  background: #16213e;
+  border: 1px solid #ffe00044;
+  padding: 8px;
+  margin-top: 8px;
+}
+
+.tab-card img {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+}
+
+.tab-info {
+  flex: 1;
+}
+
+.tab-title {
+  font-size: 6px;
+  color: #ffffff;
+  margin: 0 0 6px 0;
+  word-break: break-all;
+}
+
+.note-input {
+  width: 100%;
+  font-size: 6px;
+  border: 1px solid #ff6fff44;
+  padding: 4px;
+  background: #1a1a2e;
+  color: #ff6fff;
+  font-family: 'Press Start 2P', cursive;
+  box-sizing: border-box;
+}
+#stopBtn {
+  background: #1a1a2e;
+  color: #ff6fff;
+  border: 2px solid #ff6fff;
+  margin-top: 6px;
+}
+
+#stopBtn:hover {
+  background: #ff6fff;
+  color: #1a1a2e;
+}
+#timeline {
+  margin-top: 12px;
+}
+
+.node-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  background: #16213e;
+  border: 2px solid #ffe000;
+  padding: 8px;
+  position: relative;
+}
+
+.node-content img {
+  width: 14px;
+  height: 14px;
+  margin-top: 2px;
+}
+
+.node-info {
+  flex: 1;
+}
+
+.node-title {
+  font-size: 7px;
+  color: #ffffff;
+  margin: 0 0 6px 0;
+  word-break: break-all;
+}
+
+.note-input {
+  width: 100%;
+  font-size: 7px;
+  border: 1px solid #ff6fff44;
+  padding: 4px;
+  background: #1a1a2e;
+  color: #ff6fff;
+  font-family: 'Press Start 2P', cursive;
+  box-sizing: border-box;
+}
+
+.connector {
+  width: 2px;
+  height: 20px;
+  background: #ffe000;
+  margin-left: 30px;
+}
+
+.delete-btn {
+  position: absolute;
+  top: -8px;
+  right: 4px;
+  background: #ff6fff;
+  color: #1a1a2e;
+  border: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 16px;
+  text-align: center;
+}
+
+.delete-btn:hover {
+  background: #ffe000;
+}
