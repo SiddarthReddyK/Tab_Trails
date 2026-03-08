@@ -24,4 +24,4 @@ A pixel-themed Chrome extension that helps students and researchers track their 
 ## Why I built this
 You know that feeling — you're deep in a rabbithole, trying to learn something, and suddenly you have 20 tabs open with zero memory of why you opened half of them. Tab Trails was built for that exact moment. It keeps track of your journey so your future self knows what past you was thinking.
 ## Author
-Made by Siddath
+Made by Siddarth K
